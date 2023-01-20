@@ -1,0 +1,19 @@
+{
+  "triangle_list": [
+    {
+      "sidea": 2,
+      "sideb": 2,
+      "sidec": 2
+    },
+    {
+      "sidea": 3,
+      "sideb": 4,
+      "sidec": 4
+    },
+    {
+      "sidea": 4,
+      "sideb": 5, 
+      "sidec": 6
+    }
+  ]
+}
