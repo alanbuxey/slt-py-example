@@ -53,6 +53,4 @@ class Triangle(Shape):
         Determine if the Triangle is an equilateral by comparing the lengths a, b and c
         for 2 being equal. Only triangles can be isoceles.
         """
-        return (
-            self.sidea == self.sideb or self.sideb == self.sidec or self.sidea == self.sidec
-        ) and not self.sidea == self.sideb == self.sidec
+        return self.sidea == self.sideb or self.sideb == self.sidec or self.sidea == self.sidec

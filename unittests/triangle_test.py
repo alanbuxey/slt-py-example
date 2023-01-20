@@ -49,6 +49,6 @@ class TriangleTest(TestCase):
         """
         Confirm or deny if the triangle is an isoceles.
         """
-        self.assertFalse(self.a2b2c2.is_isoceles())
+        self.assertTrue(self.a2b2c2.is_isoceles())
         self.assertTrue(self.a3b4c4.is_isoceles())
         self.assertFalse(self.a4b5c6.is_isoceles())

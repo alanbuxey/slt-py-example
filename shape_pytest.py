@@ -65,6 +65,6 @@ def test_triangle():
     assert a2b2c2.is_equilateral()
     assert not a3b4c4.is_equilateral()
     assert not a4b5c6.is_equilateral()
-    assert not a2b2c2.is_isoceles()
+    assert a2b2c2.is_isoceles()
     assert a3b4c4.is_isoceles()
     assert not a4b5c6.is_isoceles()
